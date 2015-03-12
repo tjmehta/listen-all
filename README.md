@@ -10,10 +10,10 @@ var emitter = new EventEmitter();
 
 listenAll(emitter, function (event/*, data... */) {
   // ...do stuff...
-  // data from emit-start: arguments = 'start', { foo: 1 }
+  // data from #emit-start: arguments = 'start', { foo: 1 }
 });
 
-emitter.emit('start', { foo:1 }); # emit-start
+emitter.emit('start', { foo:1 }); // #emit-start
 ```
 
 ## License
