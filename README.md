@@ -1,4 +1,4 @@
-# listen-all
+# listen-all [![Build Status](https://travis-ci.org/tjmehta/listen-all.svg)](https://travis-ci.org/tjmehta/listen-all)
 Listen to all of an EventEmitter's events
 
 ## Usage

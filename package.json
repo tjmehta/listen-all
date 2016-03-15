@@ -4,7 +4,7 @@
   "description": "Listen to all of an EventEmitter's events",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "lab --assert code --threshold 100"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/tjmehta/listen-all/issues"
   },
-  "homepage": "https://github.com/tjmehta/listen-all"
+  "homepage": "https://github.com/tjmehta/listen-all",
+  "dependencies": {
+    "code": "^1.5.0",
+    "lab": "^5.18.1"
+  }
 }
