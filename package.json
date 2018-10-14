@@ -4,7 +4,7 @@
   "description": "Listen to all of an EventEmitter's events",
   "main": "index.js",
   "scripts": {
-    "test": "lab --assert code --threshold 100"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
