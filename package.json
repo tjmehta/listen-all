@@ -1,10 +1,10 @@
 {
   "name": "listen-all",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Listen to all of an EventEmitter's events",
   "main": "index.js",
   "scripts": {
-    "test": "lab --assert code --threshold 100"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -27,8 +27,7 @@
     "url": "https://github.com/tjmehta/listen-all/issues"
   },
   "homepage": "https://github.com/tjmehta/listen-all",
-  "dependencies": {
-    "code": "^4.0.0",
-    "lab": "^11.2.1"
+  "devDependencies": {
+    "jest": "^23.6.0"
   }
 }
