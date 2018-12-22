@@ -1,5 +1,3 @@
-'use strict';
-
 module.exports = listenAll;
 
 function listenAll (emitter, handler) {
