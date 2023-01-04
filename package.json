@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/tjmehta/listen-all",
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^29.3.1"
   }
 }
